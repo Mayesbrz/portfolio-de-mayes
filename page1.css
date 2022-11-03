@@ -1,0 +1,979 @@
+/* WELCOME TO CSS */
+
+
+body {
+    background: #060718;
+    padding:0;
+    margin:0;
+}
+
+.espacehaut {
+    padding-top: 70px;
+}
+
+
+.navbar container-fluid {
+    padding: 100px;
+}
+
+
+/* COULEUR DE LA NAV BAR */
+
+    .navbar-nav li {
+        padding: 15px;
+    }
+
+   
+    .navbar-nav {
+        padding-right: 15px;
+    }
+
+
+.navbar {
+    padding-top:0;
+    padding-bottom:0;
+    background-color: #000000;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    border-bottom : solid #fff;
+    transition: 0.2s;
+    transform :rotate(3);
+
+}
+
+.navbar-brand {
+    padding-left: 3em;
+    padding-top: 1em;
+}
+
+.Mag {
+    height: 20em;
+   
+}
+
+
+.imageinfini {
+    width: 230px;
+    height: 180px;
+    background-image: url(/img/Infini6.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 0px;
+    background-size: 250px;  
+    animation-name: infiniChange;
+    animation-direction: alternate;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes infiniChange {
+    from {
+        left:0px;
+        background-image: url(/img/Infini6.jpg);
+        opacity: 0.1;
+    }
+
+    to {
+        left:300px;
+        background-image: url(/img/Infini6.jpg);
+        opacity: 1;
+
+    }
+}
+
+
+
+.linkedin {
+ width: 45px;
+ height: 45px;
+}
+
+.fleche {
+transform: translatey(0px);
+	animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+
+.typewrite {
+    
+        color: white; 
+        text-decoration: none;
+    
+}
+
+.typewrite:hover {
+    color: #f0b27a;
+}
+
+
+
+/*--------------------------------- HEADER -------------------------------------------------*/
+
+.presentation {
+   
+    padding-left: 4em;
+    padding-top: 7em;
+
+}
+
+.presentation img {
+    height: 10em;
+    position: relative;
+}
+
+
+.presentation h1 {
+    
+    color:white; 
+}
+.header {
+    padding-bottom: 13.5em;
+    background-image: url(/img/img_dev.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.pc {
+    width: 300px;
+    
+  
+}
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+
+
+#prems {
+  
+    margin-top: 3em;
+    padding: 30px;
+}
+
+#it {
+    color: white;
+    font-size: 100px;
+    padding-bottom: 30px;
+    font-weight: lighter;
+}
+
+
+
+/*------------- Survol ----------------------*/
+
+#contactezmoi:hover  {
+    background-color: #E67E22 ;
+    transition-duration: 1s;
+    
+    
+}
+
+
+
+/*--------------------------- A PROPOS ---------------------------*/
+
+
+
+#mag {
+    color: #f0b27a;
+    font-weight: 800;
+}
+.apropos {
+    background: #fff;
+
+    padding: 30px;
+    padding-top: 12em;
+    padding-bottom: 12em;
+}
+
+#textepresentation {
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 19px;
+    padding-right: 150px;
+    text-align: justify;
+    
+}
+
+#magz {
+    font-size: 5rem;
+}
+
+#prems IMG {
+    
+    padding-left: 110px;
+    
+}
+
+.photo {
+    
+    padding-bottom: 45px;
+    float: right;
+    padding-top: 25px;
+    box-shadow: 0px 5px 0px 0px;
+}
+.ficherenseignement {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2;
+
+}
+.ficherenseignement p {
+    color: rgba(73, 73, 73, 0.822);
+
+}
+
+.btn-warning {
+    padding: 15px;
+    background-color: #f0b27a;
+    border : 1px solid #f0b27a;
+    
+}
+
+.btn-warning a {
+    color: #fff;
+    
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.btn-warning:hover {
+    background-color: #e67b1e;
+}
+
+/*------------------------ SERVICES ----------------------------*/
+
+.services {
+    padding-bottom: 3em;
+
+}
+
+
+
+.firstpart {
+padding-top: 5em;
+padding-bottom: 5em;
+}
+
+
+.titreservice {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+.grilleService {
+    
+    padding: 50px;
+    text-align: center;
+    color: #ffff;
+}
+
+.grilleService li {
+   
+    list-style-type: none;
+}
+
+.Web {
+    background-color: #bb8c65;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.Audiovisual {
+    background-color: #bb8c65;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+.communication {
+    
+    background-color: #bb8c65;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+.col-md-4 {
+    padding: 15px;
+}
+
+.col-md-4 li {
+    color: white;
+}
+
+
+
+.grilleService .col-md-4 {
+    border: 5px solid #060718;
+    border-radius: 10px;
+}
+
+.grilleService .Web:hover {
+    
+    background:url(/img/laptop.jpg);
+    background-size: cover; 
+    background-position:left;
+
+    -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+        
+}
+
+
+.grilleService .Audiovisual:hover {
+    background:url(/img/logiciel-de-montage.jpg);
+    background-size: cover;
+
+    -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.grilleService .communication:hover {
+    background:url(/img/graphisme.jpg);
+    background-size: cover;
+    background-position:bottom;
+
+    -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+
+.col-md-4 li:active {
+ color: white;
+}
+
+
+/*----------------------------- MY RESUME----------------------- */
+
+
+.titreservice2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5em;
+    color: rgb(0, 0, 0);
+    float: right;
+}
+
+
+
+.resume {
+    background: #ffffff;
+
+}
+
+.slide {
+    background: #ffffff;
+    padding-bottom: 5em;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #6b6b6bf1;
+    border-radius: 5px;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 30px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(63, 63, 63, 0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color:wheat}
+
+
+  /*---------------------- ENTREPRISE EX ----------------------------------*/
+
+.entrepriseEx {
+    padding-top:6em;
+}
+
+.ex {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+dt {
+    font-size: 25px;
+}
+
+dd {
+    padding-top: 15px;
+    text-align: justify;
+}
+
+.head {
+    background-color: rgb(148, 148, 148);
+    padding: 15px;
+    color:white;
+    border-radius: 5px;
+}
+
+
+
+/*----------------- PORTFOLIO---------------- */
+.allsubclass {
+padding-top: 8em;
+}
+
+
+.subclass {
+color: white;
+background-color: rgb(148, 148, 148);;
+border-radius: 10px;
+padding: 10px;
+}
+
+
+.portfolio {
+    text-align: center;
+
+}
+
+.portimg {
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.portimg:hover  {
+    opacity: 0.5;
+    transform:scale(0.9);
+    
+}
+
+.bellapasta {
+    padding: 25px;
+    background-color: rgb(163, 163, 163);
+     border: 1px solid black; 
+     border-radius: 5px;
+}
+
+.bellapasta video {
+    width: 100%;
+}
+
+
+.archiarchi {
+    padding: 25px;
+    background-color: rgb(216, 225, 252);
+     border: 1px solid black; 
+     border-radius: 5px;
+}
+
+.archiarchi {
+    width: 100%;
+}
+
+.portfolio h2 {
+    text-align: left;
+    padding:50px;
+
+}
+
+.dawan {
+    padding-bottom: 50px;
+    padding-top: 35px;
+    transition: transform .2s;
+}
+
+.dawan:hover {
+    transform:scale(1.2);
+    transition: transform .2s;
+}
+
+.xtrem{
+    width: 15em;
+    padding-bottom: 50px;
+    padding-top: 35px;
+    transition: transform .2s;
+}
+
+.xtrem:hover {
+    transform:scale(1.2);
+    transition: transform .2s;
+}
+
+.AN {
+    width:22em;
+    padding-bottom: 100px;
+    padding-top: 35px;
+    transition: transform .2s;
+}
+
+.AN:hover {
+    transform:scale(1.2);
+    transition: transform .2s;
+    
+}
+
+
+.iut {
+    
+    padding-bottom: 40px;
+    padding-top: 35px;
+    transition: transform .2s;
+}
+
+.iut:hover {
+    transform:scale(1.2);
+    transition: transform .2s;
+}
+
+
+
+
+/*------------------------------------ GRAPHISME-----------------------------*/
+
+.sneakers {
+    width:11em;
+    padding-bottom: 100px;
+    padding-top: 35px;
+    transition: transform .2s;
+}
+
+.sneakers:hover {
+    transform:scale(1.2);
+    transition: transform .2s;
+}
+
+
+.prince {
+    width:45em;
+    padding-bottom: 100px;
+    padding-top: 25px;
+    transition: transform .2s;
+}
+
+.prince:hover {
+    transform:scale(1.2);
+    transition: transform .2s;
+}
+
+
+.lu {
+    width:90px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+    transition: transform .2s;
+}
+
+.lu:hover {
+    transform:scale(1.2);
+    transition: transform .2s;
+}
+
+/*--------------------- CONTACT -----------------------*/
+
+
+.carte {
+    height: 500px;
+    background-image: url(/img/carte.PNG);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.information {
+   
+    background-image: url(/img/montagne.jpg);
+    padding: 30px;;
+    background-position: bottom;
+    text-align: center;
+    flex-wrap: nowrap;
+    
+}
+
+.gridinfo {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    opacity: 1;
+    color: white;
+}
+
+
+
+#contact {
+    background-color: white;
+    padding: 8rem;
+}
+
+.btn-xl {
+    padding: 1.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+
+
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #ffbd72;
+    opacity: 1;
+}
+
+.magbouton {
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+/*---------------------- MEDIA QUERIES ----------------------------*/
+
+@media screen and (max-width:1000px) {
+
+    .presentation {
+        padding-left: 1.5em;
+        padding-top: 1em;
+    }
+
+    .apropos {
+        background: #fff;
+        padding: 30px;
+        padding-top: 2em;
+        padding-bottom: 3em;
+    }
+
+    .btn-warning {
+        position: relative;
+        left:80px;
+    }
+
+
+    .firstpart {
+        text-align: center;
+        padding-top: 5em;
+        padding-bottom: 1em;
+    }
+
+
+    .photo {
+        width: auto;
+
+    }
+
+    #textepresentation {
+        padding-right:0px;
+
+    }
+
+    .services {
+        text-align: center;
+        padding-bottom: 3em;
+    }
+
+    .titreservice {
+        float:none;
+        font-size: 4em;
+    }
+
+
+    .titreservice2 {
+        float:none;
+        font-size: 4em;
+    }
+
+    .information {
+        background-image: url(/img/montagne.jpg);
+        padding: 30px;;
+        background-position: bottom;
+        text-align: center;
+        flex-wrap: nowrap;
+    }
+
+    .designer {
+        width: 300px;
+    }
+
+    .ex {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+
+      .formespace {
+        border: 1px solid rgb(184, 184, 184);
+        border-radius: 7px;
+        padding: 20px;
+        background-color: #bb8c65;     
+    }
+
+
+    /*--------------------------------------- KEY FRAMES -----------------------------------*/
+
+    .imageinfini {
+        overflow: hidden;
+        width: 100px;
+        height: 70px;
+        background-image: url(/img/Infini6.jpg);
+        background-repeat: no-repeat;
+        position: relative;
+        left: 50px;
+        background-size: 100px;  
+        animation-name: infiniChange;
+        animation-direction: alternate;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    @keyframes infiniChange {
+        from {
+            left:50px;
+            background-image: url(/img/Infini6.jpg);
+        }
+    
+        to {
+            left:150px;
+            background-image: url(/img/Infini6.jpg);
+            opacity: 1;
+            
+    
+        }
+    }
+    
+
+}
+
+
+
+
+
+
+@media screen and (max-width:750px) {
+
+    #magz {
+        font-size:3rem;
+        text-align: center;
+    }
+
+    .infini {
+        padding-left: 50px;
+        overflow: hidden;
+    }
+    
+    .presentation {
+        padding-left: 1em;
+        padding-top: 1em;
+        text-align: center;
+    }
+
+    .espacehaut {
+        padding-top: 30px;
+    }
+
+    .head2 {
+        margin-top: 150px;
+    }
+
+    .navbar-brand {
+        padding-left: 1em;
+        padding-top: 1em;
+    }
+
+    .grilleService {
+        padding: 50px;
+        text-align: center;
+        color: #ffff;
+    }
+
+
+    .nav-link:hover {
+        border-bottom : solid #fff;
+        border-width: 1px;
+        transition: 0.2s;
+        transform :rotate(3);
+    
+    }
+
+    .prince {
+        width:45em;
+        padding-bottom: 10px;
+        padding-top: 25px;
+        transition: transform .2s;
+    }
+    
+    
+    .lu {
+        width:90px;
+        padding-bottom: 10px;
+        padding-top: 40px;
+        transition: transform .2s;
+    }
+
+    .sneakers {
+        width:11em;
+        padding-bottom: 10px;
+        padding-top: 35px;
+        transition: transform .2s;
+    }
+    
+
+    .formcontact img {
+        width:80px;
+    }
+    #contact {
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+
+
+    .information {
+        background-image: url(/img/montagne.jpg);
+        padding: 30px;
+        background-position: bottom;
+        text-align: center;
+        flex-wrap: nowrap;
+    }
+
+    .imageinfini {
+        overflow: hidden;
+        width: 100px;
+        height: 70px;
+        background-image: url(/img/Infini6.jpg);
+        background-repeat: no-repeat;
+        position: relative;
+        left: 50px;
+        background-size: 100px;  
+        animation-name: infiniChange;
+        animation-direction: alternate;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    
+
+    @keyframes infiniChange {
+        from {
+            left:50px;
+            background-image: url(/img/Infini6.jpg);
+        }
+    
+        to {
+            left:100px;
+            background-image: url(/img/Infini6.jpg);
+            opacity: 1;
+            
+    
+        }
+    }
+ 
+
+
+}
